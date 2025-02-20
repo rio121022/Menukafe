@@ -1,0 +1,71 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #8B4513; /* Warna coklat */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-category {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category h2 {
+    font-size: 1.8rem;
+    color: #8B4513;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8B4513;
+    padding-bottom: 5px;
+}
+
+.menu-category ul {
+    list-style-type: none;
+}
+
+.menu-category ul li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    color: #555;
+}
+
+.menu-category ul li strong {
+    color: #8B4513;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #666;
+}
